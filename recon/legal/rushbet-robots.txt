@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /cart/
+Disallow: /privacy/
+Disallow: /contact/
+Disallow: /events-calendar/
+Disallow: /index-animate/
+Disallow: /css-animation/
+Disallow: /tag/shawarma/
+Disallow: /tag/steak/
+Disallow: /team-member/
+Disallow: /author/
+Disallow: /events-2/
+Disallow: /?page=eula&type=PRIVACY_POLICY
+Disallow: /?page=eula&tos=TOC
+Disallow: /?page=eula&tos=PROT
+Sitemap: https://www.rushbet.co/sitemap.xml

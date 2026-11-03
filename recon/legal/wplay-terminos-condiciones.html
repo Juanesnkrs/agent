@@ -1,0 +1,1913 @@
+<!doctype html>
+<html class="aplication-html">
+  <head>
+      
+<script>
+  Playtech = {
+    Variables: {
+      aliasLocaleMappging: {},
+      allowedCountries: [
+        {"code": "AF", "phoneAreaCode": "+93"},
+        {"code": "AX", "phoneAreaCode": "+358"},
+        {"code": "AL", "phoneAreaCode": "+355"},
+        {"code": "DZ", "phoneAreaCode": "+213"},
+        {"code": "AS", "phoneAreaCode": "+1684"},
+        {"code": "AD", "phoneAreaCode": "+376"},
+        {"code": "AO", "phoneAreaCode": "+244"},
+        {"code": "AI", "phoneAreaCode": "+1264"},
+        {"code": "AQ", "phoneAreaCode": "+672"},
+        {"code": "AG", "phoneAreaCode": "+1268"},
+        {"code": "AR", "phoneAreaCode": "+54"},
+        {"code": "AM", "phoneAreaCode": "+374"},
+        {"code": "AW", "phoneAreaCode": "+297"},
+        {"code": "AU", "phoneAreaCode": "+61"},
+        {"code": "AT", "phoneAreaCode": "+43"},
+        {"code": "AZ", "phoneAreaCode": "+994"},
+        {"code": "BS", "phoneAreaCode": "+1242"},
+        {"code": "BH", "phoneAreaCode": "+973"},
+        {"code": "BD", "phoneAreaCode": "+880"},
+        {"code": "BB", "phoneAreaCode": "+1246"},
+        {"code": "BY", "phoneAreaCode": "+375"},
+        {"code": "BE", "phoneAreaCode": "+32"},
+        {"code": "BZ", "phoneAreaCode": "+501"},
+        {"code": "BJ", "phoneAreaCode": "+229"},
+        {"code": "BM", "phoneAreaCode": "+1441"},
+        {"code": "BT", "phoneAreaCode": "+975"},
+        {"code": "BO", "phoneAreaCode": "+591"},
+        {"code": "BQ", "phoneAreaCode": ""},
+        {"code": "BA", "phoneAreaCode": "+387"},
+        {"code": "BW", "phoneAreaCode": "+267"},
+        {"code": "BV", "phoneAreaCode": "+47"},
+        {"code": "BR", "phoneAreaCode": "+55"},
+        {"code": "IO", "phoneAreaCode": "+246"},
+        {"code": "BN", "phoneAreaCode": "+673"},
+        {"code": "BG", "phoneAreaCode": "+359"},
+        {"code": "BF", "phoneAreaCode": "+226"},
+        {"code": "BI", "phoneAreaCode": "+257"},
+        {"code": "KH", "phoneAreaCode": "+855"},
+        {"code": "CM", "phoneAreaCode": "+237"},
+        {"code": "CA", "phoneAreaCode": "+1"},
+        {"code": "CV", "phoneAreaCode": "+238"},
+        {"code": "KY", "phoneAreaCode": "+1345"},
+        {"code": "CF", "phoneAreaCode": "+236"},
+        {"code": "TD", "phoneAreaCode": "+235"},
+        {"code": "CL", "phoneAreaCode": "+56"},
+        {"code": "CN", "phoneAreaCode": "+86"},
+        {"code": "CX", "phoneAreaCode": "+61"},
+        {"code": "CC", "phoneAreaCode": "+61"},
+        {"code": "CO", "phoneAreaCode": "+57"},
+        {"code": "KM", "phoneAreaCode": "+269"},
+        {"code": "CG", "phoneAreaCode": "+242"},
+        {"code": "CD", "phoneAreaCode": "+243"},
+        {"code": "CK", "phoneAreaCode": "+682"},
+        {"code": "CR", "phoneAreaCode": "+506"},
+        {"code": "CI", "phoneAreaCode": "+225"},
+        {"code": "HR", "phoneAreaCode": "+385"},
+        {"code": "CU", "phoneAreaCode": "+53"},
+        {"code": "CW", "phoneAreaCode": ""},
+        {"code": "CY", "phoneAreaCode": "+357"},
+        {"code": "CZ", "phoneAreaCode": "+420"},
+        {"code": "DK", "phoneAreaCode": "+45"},
+        {"code": "DJ", "phoneAreaCode": "+253"},
+        {"code": "DM", "phoneAreaCode": "+1767"},
+        {"code": "DO", "phoneAreaCode": "+1809"},
+        {"code": "EC", "phoneAreaCode": "+593"},
+        {"code": "EG", "phoneAreaCode": "+20"},
+        {"code": "SV", "phoneAreaCode": "+503"},
+        {"code": "GQ", "phoneAreaCode": "+240"},
+        {"code": "ER", "phoneAreaCode": "+291"},
+        {"code": "EE", "phoneAreaCode": "+372"},
+        {"code": "ET", "phoneAreaCode": "+251"},
+        {"code": "FK", "phoneAreaCode": "+500"},
+        {"code": "FO", "phoneAreaCode": "+298"},
+        {"code": "FJ", "phoneAreaCode": "+679"},
+        {"code": "FI", "phoneAreaCode": "+358"},
+        {"code": "FR", "phoneAreaCode": "+33"},
+        {"code": "GF", "phoneAreaCode": "+594"},
+        {"code": "PF", "phoneAreaCode": "+689"},
+        {"code": "TF", "phoneAreaCode": "+262"},
+        {"code": "GA", "phoneAreaCode": "+241"},
+        {"code": "GM", "phoneAreaCode": "+220"},
+        {"code": "GE", "phoneAreaCode": "+995"},
+        {"code": "DE", "phoneAreaCode": "+49"},
+        {"code": "GH", "phoneAreaCode": "+233"},
+        {"code": "GI", "phoneAreaCode": "+350"},
+        {"code": "GR", "phoneAreaCode": "+30"},
+        {"code": "GL", "phoneAreaCode": "+299"},
+        {"code": "GD", "phoneAreaCode": "+1473"},
+        {"code": "GP", "phoneAreaCode": "+590"},
+        {"code": "GU", "phoneAreaCode": "+1671"},
+        {"code": "GT", "phoneAreaCode": "+502"},
+        {"code": "GG", "phoneAreaCode": "+44"},
+        {"code": "GN", "phoneAreaCode": "+224"},
+        {"code": "GW", "phoneAreaCode": "+245"},
+        {"code": "GY", "phoneAreaCode": "+592"},
+        {"code": "HT", "phoneAreaCode": "+509"},
+        {"code": "HM", "phoneAreaCode": "+672"},
+        {"code": "VA", "phoneAreaCode": "+379"},
+        {"code": "HN", "phoneAreaCode": "+504"},
+        {"code": "HK", "phoneAreaCode": "+852"},
+        {"code": "HU", "phoneAreaCode": "+36"},
+        {"code": "IS", "phoneAreaCode": "+354"},
+        {"code": "IN", "phoneAreaCode": "+91"},
+        {"code": "ID", "phoneAreaCode": "+62"},
+        {"code": "IR", "phoneAreaCode": "+98"},
+        {"code": "IQ", "phoneAreaCode": "+964"},
+        {"code": "IE", "phoneAreaCode": "+353"},
+        {"code": "IM", "phoneAreaCode": "+44"},
+        {"code": "IL", "phoneAreaCode": "+972"},
+        {"code": "IT", "phoneAreaCode": "+39"},
+        {"code": "JM", "phoneAreaCode": "+1876"},
+        {"code": "JP", "phoneAreaCode": "+81"},
+        {"code": "JE", "phoneAreaCode": "+441534"},
+        {"code": "JO", "phoneAreaCode": "+962"},
+        {"code": "KZ", "phoneAreaCode": "+7"},
+        {"code": "KE", "phoneAreaCode": "+254"},
+        {"code": "KI", "phoneAreaCode": "+686"},
+        {"code": "KP", "phoneAreaCode": "+850"},
+        {"code": "KR", "phoneAreaCode": "+82"},
+        {"code": "KW", "phoneAreaCode": "+965"},
+        {"code": "KG", "phoneAreaCode": "+996"},
+        {"code": "LA", "phoneAreaCode": "+856"},
+        {"code": "LV", "phoneAreaCode": "+371"},
+        {"code": "LB", "phoneAreaCode": "+961"},
+        {"code": "LS", "phoneAreaCode": "+266"},
+        {"code": "LR", "phoneAreaCode": "+231"},
+        {"code": "LY", "phoneAreaCode": "+218"},
+        {"code": "LI", "phoneAreaCode": "+423"},
+        {"code": "LT", "phoneAreaCode": "+370"},
+        {"code": "LU", "phoneAreaCode": "+352"},
+        {"code": "MO", "phoneAreaCode": "+853"},
+        {"code": "MK", "phoneAreaCode": "+389"},
+        {"code": "MG", "phoneAreaCode": "+261"},
+        {"code": "MW", "phoneAreaCode": "+265"},
+        {"code": "MY", "phoneAreaCode": "+60"},
+        {"code": "MV", "phoneAreaCode": "+960"},
+        {"code": "ML", "phoneAreaCode": "+223"},
+        {"code": "MT", "phoneAreaCode": "+356"},
+        {"code": "MH", "phoneAreaCode": "+692"},
+        {"code": "MQ", "phoneAreaCode": "+596"},
+        {"code": "MR", "phoneAreaCode": "+222"},
+        {"code": "MU", "phoneAreaCode": "+230"},
+        {"code": "YT", "phoneAreaCode": "+269"},
+        {"code": "MX", "phoneAreaCode": "+52"},
+        {"code": "FM", "phoneAreaCode": "+691"},
+        {"code": "MD", "phoneAreaCode": "+373"},
+        {"code": "MC", "phoneAreaCode": "+377"},
+        {"code": "MN", "phoneAreaCode": "+976"},
+        {"code": "ME", "phoneAreaCode": "+382"},
+        {"code": "MS", "phoneAreaCode": "+1664"},
+        {"code": "MA", "phoneAreaCode": "+212"},
+        {"code": "MZ", "phoneAreaCode": "+258"},
+        {"code": "MM", "phoneAreaCode": "+95"},
+        {"code": "NA", "phoneAreaCode": "+264"},
+        {"code": "NR", "phoneAreaCode": "+674"},
+        {"code": "NP", "phoneAreaCode": "+977"},
+        {"code": "NL", "phoneAreaCode": "+31"},
+        {"code": "NC", "phoneAreaCode": "+687"},
+        {"code": "NZ", "phoneAreaCode": "+64"},
+        {"code": "NI", "phoneAreaCode": "+505"},
+        {"code": "NE", "phoneAreaCode": "+227"},
+        {"code": "NG", "phoneAreaCode": "+234"},
+        {"code": "NU", "phoneAreaCode": "+683"},
+        {"code": "NF", "phoneAreaCode": "+672"},
+        {"code": "MP", "phoneAreaCode": "+1670"},
+        {"code": "NO", "phoneAreaCode": "+47"},
+        {"code": "OM", "phoneAreaCode": "+968"},
+        {"code": "PK", "phoneAreaCode": "+92"},
+        {"code": "PW", "phoneAreaCode": "+680"},
+        {"code": "PS", "phoneAreaCode": "+970"},
+        {"code": "PA", "phoneAreaCode": "+507"},
+        {"code": "PG", "phoneAreaCode": "+675"},
+        {"code": "PY", "phoneAreaCode": "+595"},
+        {"code": "PE", "phoneAreaCode": "+51"},
+        {"code": "PH", "phoneAreaCode": "+63"},
+        {"code": "PN", "phoneAreaCode": "+64"},
+        {"code": "PL", "phoneAreaCode": "+48"},
+        {"code": "PT", "phoneAreaCode": "+351"},
+        {"code": "PR", "phoneAreaCode": "+1"},
+        {"code": "QA", "phoneAreaCode": "+974"},
+        {"code": "RE", "phoneAreaCode": "+262"},
+        {"code": "RO", "phoneAreaCode": "+40"},
+        {"code": "RU", "phoneAreaCode": "+7"},
+        {"code": "RW", "phoneAreaCode": "+250"},
+        {"code": "BL", "phoneAreaCode": ""},
+        {"code": "SH", "phoneAreaCode": "+290"},
+        {"code": "KN", "phoneAreaCode": "+1869"},
+        {"code": "LC", "phoneAreaCode": "+1758"},
+        {"code": "MF", "phoneAreaCode": ""},
+        {"code": "PM", "phoneAreaCode": "+508"},
+        {"code": "VC", "phoneAreaCode": "+1784"},
+        {"code": "WS", "phoneAreaCode": "+685"},
+        {"code": "SM", "phoneAreaCode": "+378"},
+        {"code": "ST", "phoneAreaCode": "+239"},
+        {"code": "SA", "phoneAreaCode": "+966"},
+        {"code": "SN", "phoneAreaCode": "+221"},
+        {"code": "RS", "phoneAreaCode": "+381"},
+        {"code": "SC", "phoneAreaCode": "+248"},
+        {"code": "SL", "phoneAreaCode": "+232"},
+        {"code": "SG", "phoneAreaCode": "+65"},
+        {"code": "SX", "phoneAreaCode": ""},
+        {"code": "SK", "phoneAreaCode": "+421"},
+        {"code": "SI", "phoneAreaCode": "+386"},
+        {"code": "SB", "phoneAreaCode": "+677"},
+        {"code": "SO", "phoneAreaCode": "+252"},
+        {"code": "ZA", "phoneAreaCode": "+27"},
+        {"code": "GS", "phoneAreaCode": "+500"},
+        {"code": "SS", "phoneAreaCode": ""},
+        {"code": "ES", "phoneAreaCode": "+34"},
+        {"code": "LK", "phoneAreaCode": "+94"},
+        {"code": "SD", "phoneAreaCode": "+249"},
+        {"code": "SR", "phoneAreaCode": "+597"},
+        {"code": "SJ", "phoneAreaCode": "+47"},
+        {"code": "SZ", "phoneAreaCode": "+268"},
+        {"code": "SE", "phoneAreaCode": "+46"},
+        {"code": "CH", "phoneAreaCode": "+41"},
+        {"code": "SY", "phoneAreaCode": "+963"},
+        {"code": "TW", "phoneAreaCode": "+886"},
+        {"code": "TJ", "phoneAreaCode": "+992"},
+        {"code": "TZ", "phoneAreaCode": "+255"},
+        {"code": "TH", "phoneAreaCode": "+66"},
+        {"code": "TL", "phoneAreaCode": "+670"},
+        {"code": "TG", "phoneAreaCode": "+228"},
+        {"code": "TK", "phoneAreaCode": "+690"},
+        {"code": "TO", "phoneAreaCode": "+676"},
+        {"code": "TT", "phoneAreaCode": "+1868"},
+        {"code": "TN", "phoneAreaCode": "+216"},
+        {"code": "TR", "phoneAreaCode": "+90"},
+        {"code": "TM", "phoneAreaCode": "+993"},
+        {"code": "TC", "phoneAreaCode": "+1649"},
+        {"code": "TV", "phoneAreaCode": "+688"},
+        {"code": "UG", "phoneAreaCode": "+256"},
+        {"code": "UA", "phoneAreaCode": "+380"},
+        {"code": "AE", "phoneAreaCode": "+971"},
+        {"code": "GB", "phoneAreaCode": "+44"},
+        {"code": "UM", "phoneAreaCode": "+699"},
+        {"code": "UY", "phoneAreaCode": "+598"},
+        {"code": "UZ", "phoneAreaCode": "+998"},
+        {"code": "VU", "phoneAreaCode": "+678"},
+        {"code": "VE", "phoneAreaCode": "+58"},
+        {"code": "VN", "phoneAreaCode": "+84"},
+        {"code": "VG", "phoneAreaCode": "+1284"},
+        {"code": "VI", "phoneAreaCode": "+1340"},
+        {"code": "WF", "phoneAreaCode": "+681"},
+        {"code": "EH", "phoneAreaCode": "+212"},
+        {"code": "YE", "phoneAreaCode": "+967"},
+        {"code": "ZM", "phoneAreaCode": "+260"},
+        {"code": "ZW", "phoneAreaCode": "+263"}
+      ],
+      allowedCurrencies: ["COP"],
+      allowedLocales: ["es_ES"],
+      animationConfig: {"mobile":{"animationEnabled":false,"gamesinfoComingUp":false,"gamesinfoRearrange":false,"gamesinfoFavorites":false,"gamesinfoSearch":false,"listItemPress":false,"inputPlaceholderTransition":false,"navBarHover":false,"buttonPress":false,"accordionExpandCollapse":false,"navBetweenPageLoader":false},"tablet":{"animationEnabled":false,"gamesinfoComingUp":false,"gamesinfoRearrange":false,"gamesinfoFavorites":false,"gamesinfoSearch":false,"listItemPress":false,"inputPlaceholderTransition":false,"navBarHover":false,"buttonPress":false,"accordionExpandCollapse":false,"navBetweenPageLoader":false},"desktop":{"animationEnabled":false,"gamesinfoComingUp":false,"gamesinfoRearrange":false,"gamesinfoFavorites":false,"gamesinfoSearch":false,"listItemPress":false,"inputPlaceholderTransition":false,"navBarHover":false,"buttonPress":false,"accordionExpandCollapse":false,"navBetweenPageLoader":false}},
+      cashierUrlTemplates: [],
+      casino: "",
+      casinoName: "wplayco",
+      casinoSkin: "wplayco",
+      cdnUrl: "",
+      chatJsUrl: "https:\/\/widgets\-co.wplay.co\/bundle.js",
+      chatCssUrl: "https:\/\/widgets\-co.wplay.co\/styles.css",
+      clientType: "casino",
+      clientVersion: "10H",
+      companyLogo: "\/library\/logo\-min.png",
+      cookiesConfiguration: {
+        "commonCookieExpiration": 730,
+        "commonCookieName": "",
+        "cookieSettingsPage": "",
+        "cookiesInformationWC": "COOKIE\-NOTICE",
+        "enableCookiesAdmission": false,
+        "enablePresistentCookieLayer": false,
+        "consentCookies": []
+      },
+      ezPushConfiguration: {
+        "ezPushEnabled": false,
+        "ezPushApplicationName": "",
+        "ezPushPathToFile": "",
+        "ezPushSharePlayerData": false, 
+             },
+      azureConfiguration: {
+        "azureInstrumentationKey": "",
+             },
+      countryDetectionType: "akamai",
+      dataMapperEndpointURL: "",
+      defaultBingoRegion: "",
+      defaultCountry: "CO",
+      defaultCurrency: "COP",
+      defaultLocale: "es_ES",
+      detailsRecovery: { isRequiredVerificationEnable: false, useEmailOnly: true },
+      dynamicCurrencyTags: {"tags":{"DCTAG_8":{"EUR":"8 euro","GBP":"8 gbp","USD":"8 usd"},"DCTAG_RAW":{"EUR":"RAW euro","AUD":"fd","GBP":"raw gbp","USD":"raw dollar"},"DCTAG_RAW1":{"EUR":"raw1 euro","GBP":"raw1 gbp","USD":"raw1 doll"},"DCTAG_CORE":{"EUR":"core euro","GBP":"core gbp","USD":"core usd"},"DCTAG_G":{"GBP":"g gbp","EUR":"g euro","USD":"g usd"}}},
+      emailVerificationParam: "",
+      enableChangeLangPopup: false,
+      enableGoogleAnalyticsOAPIEvent: false,
+      enableLangDetection: false,
+      endpointURL: "",
+      galaxyClientType: "casino",
+      galaxyClientVersion: "10H",
+      GoogleAnalyticsTrackerId: "",
+      isAdminNode: false,
+      isAutoLoginEnabled: false,
+      isEnablePasswordSpy: true,
+      isJsLoggingEnabled: true,
+      isUsernameInUppercase: false,
+      langDetectionType: "mapping",
+      leaderboard: 
+{
+  "page": "\/leaderboard\-page",
+  "displayPlayer": "username",
+  "networkType": "bingo",
+  "networkId": "",
+  "enableDemoMode": false
+},
+      modifiedDate: "1793268729750",
+      mwsAppServerSystemID: "",
+      mwsAppServerURL: "",
+      openApiDomain: "https:\/\/openapi.wplay.co:443",
+      openApiReconnectAttempts: "3",
+      openApiReconnectionDelay: "5000",
+      orgTags: [
+{
+  "organization": "casino",
+  "platform": "mobile",
+  "tag": "MOBCASWP"
+},
+{
+  "organization": "games",
+  "platform": "web",
+  "tag": "GMSWS"
+},
+{
+  "organization": "sport",
+  "platform": "web",
+  "tag": "SPWS"
+},
+{
+  "organization": "sport",
+  "platform": "mobile",
+  "tag": "MOBSPWP"
+},
+{
+  "organization": "golden\-race",
+  "platform": "web",
+  "tag": "GRWP"
+},
+{
+  "organization": "livecasino",
+  "platform": "web",
+  "tag": "LCASWS"
+},
+{
+  "organization": "casino",
+  "platform": "web",
+  "tag": "CASWS"
+},
+{
+  "organization": "games",
+  "platform": "mobile",
+  "tag": "MOBGMSWS"
+},
+{
+  "organization": "livecasino",
+  "platform": "mobile",
+  "tag": "MOBLCASWP"
+},
+{
+  "organization": "slots",
+  "platform": "web",
+  "tag": "SLWS"
+},
+{
+  "organization": "slots",
+  "platform": "mobile",
+  "tag": "MOBSLWP"
+}],
+      paypalMerchantValue: "",
+      pkpassEndpointURL: "",
+      qrEndpointURL: "",
+      realMode: 1,
+      regulation: "",
+      rememberMe: "local_storage",
+      removeRememberMeOnLogout: false,
+      rootPage: "\/casino",
+      sessionSubscriptionBalances: "withdrawable_balance, pending_withdrawals, real_gaming_balance, casino_gaming_balance, casino_table_real_balance, bonus_balance, bonus_pending_winnings, ringfenced_real_balance, broken_games_real_balance, broken_games_bonus_balance, total_bonus_balance, free_spin_balance",
+      sessionSubscriptionTypes: "alert,bonus,bonus:2,rg\-timer,rg:dep\-cool\-off,advanced\-dialog\-lobby",
+      sessionSubscriptionTags: "",
+      showInfoBtnForPromocodes: false,
+      showSessionTicker: false,
+      spanishAgeVerification: false,
+      ssoPasDomain: "login\-co.wplay.co",
+      ssoPasJsURLs: "https:\/\/login\-co.wplay.co\/jswrapper\/integration.js.php?casino=wplayco\x26min=1",
+      ssoPasExternalJsUrl: "",
+      termsMapping: [
+{
+  "balance": "CASINO_GAMING_BALANCE",
+  "clientType": "casino",
+  "organization": "casino",
+  "systemId": "269",
+  "termsVersion": "2"
+},
+{
+  "balance": "CASINO_GAMING_BALANCE",
+  "clientType": "live",
+  "organization": "livecasino",
+  "systemId": "269",
+  "termsVersion": "2"
+},
+{
+  "balance": "CASINO_GAMING_BALANCE",
+  "clientType": "casino",
+  "organization": "slots",
+  "systemId": "269",
+  "termsVersion": "2"
+},
+{
+  "balance": "CASINO_GAMING_BALANCE",
+  "clientType": "sportsbook",
+  "organization": "sport",
+  "systemId": "91",
+  "termsVersion": "2"
+},
+{
+  "balance": "CASINO_GAMING_BALANCE",
+  "clientType": "casino",
+  "organization": "home",
+  "systemId": "269",
+  "termsVersion": "2"
+}],
+      timeFlyingPeriod: "60",
+      useIMSClientApi: false,
+      useMwsAppServerAPI: false,
+      userSegmentURLType: "Portal_Segmentation",
+      pgg2: {
+        endpointUrl: "",
+        casino: "",
+        guestsTracking: false
+      },
+      inboxWidget: {
+        enabled: true,
+        showIcon: false,
+        showLaunchIcon: false,
+        counterPage: ""
+      },
+      chatWidget: {
+        enabled: true,
+        showIcon: false,
+        showLaunchIcon: true,
+        counterPage: ""
+      },
+      themeName: "ptts_wplayco\-theme"
+    }
+  }
+</script>
+      <script>
+	Playtech.Events = {};
+
+	Playtech._API = {
+		listeners: [],
+
+		backboneEventsMapping: {
+			'COOKIE_REGULATION': 'cookieRegulation',
+			'LOGGED_IN': 'auth:login',
+			'LOGGED_IN_FAIL': 'user:failedLogin',
+			'LOGGED_OUT': 'auth:logout',
+			'REGISTRATION_COMPLETED': 'registration:success',
+			'REGISTRATION_FAIL': 'registration:error',
+			'REGISTRATION_STEP_CHANGED': 'registration:changeStep',
+			'DEPOSIT_COMPLETED': 'deposit:success',
+			'DEPOSIT_FAIL': 'deposit:fail',
+			'WITHDRAWAL_COMPLETED': 'withdraw:success',
+			'WITHDRAWAL_FAIL': 'withdraw:fail',
+			'USER_PAYMENT_STATISTICS_UPDATED': 'user:updatePaymentStatistics',
+			'USER_BALANCE_UPDATED': 'user:balanceUpdated',
+			'FORGOT_USERNAME_SUCCESS': 'forgotUsername:success',
+			'FORGOT_USERNAME_FAIL': 'forgotUsername:fail',
+			'FORGOT_PASSWORD_SUCCESS': 'forgotPassword:success',
+			'FORGOT_PASSWORD_FAIL': 'forgotPassword:fail',
+			'SAFECHARGE_ANALYTICS': 'safecharge:analytics',
+			'SAFECHARGE_PM_REGISTRATION_FAIL': 'safecharge:failedRegistration',
+			'SAFECHARGE_PM_REGISTRATION_SUCCESS': 'safecharge:successfulRegistration',
+			'SAFECHARGE_CONTACT_SUPPORT': 'safecharge:contactSupport',
+			'SAFECHARGE_ALTERNATIVE_VERIFICATION': 'safecharge:alternativeVerification',
+			'SAFECHARGE_WITHDRAWAL_SUCCESS': 'safecharge:successfulWithdrawalRequest',
+			'SAFECHARGE_WITHDRAWAL_FAIL': 'safecharge:failedWithdrawalRequest',
+			'GAME_PORTLET_PERSONALIZED_GRID': 'gamePortletPersonalizedGrid',
+			'GAME_PORTLET_DISPLAY': 'gamePortletDisplay',
+			'GAME_PORTLET_SEARCH': 'gamePortletSearch',
+			'GAME_PORTLET_PAGE': 'gamePortletPage',
+			'GAME_PORTLET_VIEW': 'gamePortletView',
+			'GAME_PORTLET_CATEGORY_CHANGE': 'gamePortletCategoryChange',
+			'GAME_PORTLET_SORT': 'gamePortletSort',
+			'GAME_FAVORITES_HANDLER': 'gameFavoritesChange',
+			'GAME_DISPLAY': 'gameGameDisplay',
+			'GAME_LAUNCH': 'gameGameLaunch'
+		},
+
+		reactEventsMapping: {
+			'RESPONSIVE_GAME_PORTLET_DISPLAY': 'games:mount',
+			'RESPONSIVE_GAME_PORTLET_CATEGORY_SWITCH': 'game:category:switch',
+			'RESPONSIVE_GAME_PORTLET_CATEGORY_EXPAND': 'game:category:expand',
+			'RESPONSIVE_GAME_PORTLET_CATEGORY_SCROLL': 'game:category:activeSlide:change',
+			'RESPONSIVE_GAME_PORTLET_PERSONALIZED_GRID_2': 'games:personalizedGrid:2',
+			'RESPONSIVE_GAME_PORTLET_SEARCH': 'game:search:change',
+			'GAME_FAVORITES_HANDLER': 'gameFavoritesChange',
+			'GAME_LAUNCH': 'gameGameLaunch'
+		}
+	};
+
+	Playtech.on = function (event, callback) {
+		Playtech._API.listeners.push({
+			type: 'on',
+			event: event,
+			callback: callback
+		});
+	};
+
+	Playtech.once = function (event, callback) {
+		Playtech._API.listeners.push({
+			type: 'once',
+			event: event,
+			callback: callback
+		});
+	};
+
+	(function () {
+		for (var event in Playtech._API.backboneEventsMapping) {
+			Playtech.Events[event] = event;
+		}
+
+		for (var event in Playtech._API.reactEventsMapping) {
+			Playtech.Events[event] = event;
+		}
+	})();
+</script>
+      <script type="text/javascript">
+          window.PTTS = {
+            override: function(i, e) {
+              if (window.require) {
+                if ((window.require._defined && Object.keys(window.require._defined).length !== 0) || (window.require.s &&
+                    Object.keys(window.require.s.contexts._.defined).length !== 0)) {
+                  window.require(i, e);
+                } else {
+                  window.setTimeout(this.override.bind(this, i, e), 200);
+                }
+              } else {
+                window.setTimeout(this.override.bind(this, i, e), 200);
+              }
+            }
+          };
+      </script>
+    <meta name="theme-color" content="#0c0e16">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K4VNZWD');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Start of wplayco Zendesk Widget script -->
+<!--<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=d2bdd5c3-11f5-44de-9445-55a0bc7fd001"></script>-->
+<!-- End of wplayco Zendesk Widget script -->
+
+<script src="https://cdn.deviceinf.com/js/v6/agent.umd.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8">
+        <title>Casino y apuestas Wplay.co</title>
+    <!-- For IE Mobile -->
+<meta name="msapplication-tap-highlight" content="no"/>
+<meta name="apple-mobile-web-app-capable" content="no"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-touch-fullscreen" content="no"/>
+<!-- Generic -->
+<link rel="icon" href="/favicons/favicon-32.png" sizes="32x32"/>
+<link rel="icon" href="/favicons/favicon-57.png" sizes="57x57"/>
+<link rel="icon" href="/favicons/favicon-76.png" sizes="76x76"/>
+<link rel="icon" href="/favicons/favicon-96.png" sizes="96x96"/>
+<link rel="icon" href="/favicons/favicon-128.png" sizes="128x128"/>
+<link rel="icon" href="/favicons/favicon-192.png" sizes="192x192"/>
+<link rel="icon" href="/favicons/favicon-228.png" sizes="228x228"/>
+<!-- Android -->
+<link rel="shortcut icon" sizes="196x196" href="/favicons/favicon-196.png"/>
+<!-- iOS -->
+<link rel="apple-touch-icon" href="/favicons/favicon-120.png" sizes="120x120"/>
+<link rel="apple-touch-icon" href="/favicons/favicon-152.png" sizes="152x152"/>
+<link rel="apple-touch-icon" href="/favicons/favicon-180.png" sizes="180x180"/>
+<style>html { font: 80% 'Helvetica Neue', Arial; color: #555555; }</style>
+<script>if (!window.console) { window.console = {}; window.console.log = window.console.info = window.console.error = function () {}; }</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+  </head>
+  <body>
+    
+    <div id="application" class="application-root">
+      <div class="preloader">
+	<div class="main-site-loader">
+		<div class="main-site-loader__logo"></div>
+		<div class="main-site-loader__spinner"></div>
+	</div>
+</div>    </div>
+    <script>
+    var link = document.createElement('link');
+    link.href = '/ptts_wplayco-theme/css/style.raw.css?t=1779692419287';
+    link.type = 'text/css';
+    link.rel = 'stylesheet';
+    document.querySelector('head').appendChild(link);
+
+    var bundle = document.createElement('link');
+    bundle.href = '/ptts_wplayco-theme/js/app-out/bundle.css?t=1779692419287';
+    bundle.type = 'text/css';
+    bundle.rel = 'stylesheet';
+    bundle.onload = function() {
+        // some browsers run this code twice for mysterious reasons
+        if (window.isCssBundleCustomPropertiesUrlsHackApplied) {
+            return;
+        }
+
+        window.isCssBundleCustomPropertiesUrlsHackApplied = true;
+
+        var needApplyUrlsHack = (function() {
+            var ua = window.navigator.userAgent.toLowerCase();
+            var isTouchDevice = 'ontouchstart' in document.documentElement;
+            var isIpadLikeDesktop = isTouchDevice && ua.indexOf('macintosh') !== -1;
+            var isIos = isIpadLikeDesktop ||
+                ['iphone', 'ipod', 'ipad'].filter(function(i) {
+                    return ua.indexOf(i) !== -1;
+                }).length > 0;
+            var browser = (ua.match(/(chrome|crios|firefox|safari|msie|trident(?=\/))\/?\s*(\d+)/) || [])[1] || null;
+            var isSafari = browser === 'safari' || !browser && isIos;
+            var isEdge = ua.indexOf('edge') !== -1;
+
+            return isIos || isSafari || isEdge;
+        })();
+
+        if (!needApplyUrlsHack) {
+            return;
+        }
+
+        var root = getComputedStyle(document.documentElement);
+        var newRoot = '';
+        var bundleStyleSheet;
+
+        for (var i = 0; i < document.styleSheets.length; i++) {
+            var styleSheet = document.styleSheets[i];
+            if (styleSheet.href && styleSheet.href.indexOf(bundle.href) !== -1) {
+                bundleStyleSheet = styleSheet;
+                break;
+            }
+        }
+
+        if (!bundleStyleSheet) {
+            return;
+        }
+
+        var variables = [];
+        var varNameRe = /--[\w\d-]+?(?=\:)/g;
+        [].slice.call(bundleStyleSheet.cssRules).forEach(function(rule) {
+            if (rule.selectorText !== ':root') {
+                return;
+            }
+
+            var match = rule.cssText.match(varNameRe);
+
+            if (match) {
+                match.forEach(function(varName) {
+                    variables.push(varName);
+                });
+            }
+        });
+
+        variables.forEach(function(propName) {
+            var value = root.getPropertyValue(propName);
+
+            if (value.indexOf('url(') > -1) {
+                newRoot += propName + ': ' +
+                    value.replace('url(', 'url(/' + Playtech.Variables.themeName + '/js/app-out/') + ';\n';
+            }
+        });
+
+        if (newRoot) {
+            var sheet = document.createElement('style');
+            sheet.type = 'text/css';
+            sheet.id = 'ios-custom-property-fix-' + Date.now();
+            sheet.textContent = ':root{' + newRoot + '}';
+            document.querySelector('head').appendChild(sheet);
+        }
+    };
+    document.querySelector('head').appendChild(bundle);
+</script>
+<script type="text/javascript">
+    var element = document.createElement('script');
+    element.src = '/ptts_wplayco-theme/js/dist/main.min.js?t=1779692419287';
+    document.body.appendChild(element);
+</script>
+<script type="text/javascript">
+    // <![CDATA[
+    /*Playtech.Variables.liveGamesService = {
+            url: 'wss://wslivetest.onrender.com?order=normal&dataset=default',
+            casino: 'wplayco',
+            currency: 'COP',
+            vipLevel: 1
+        };*/
+
+/* WINNER-71252 SPORT RETENTION FLOATING OVERRIDE  */
+
+Playtech.Variables.retentionFloatingWC = 'RETENTION-FOOTBALL-FLOATING'
+
+/* E.O. WINNER-71252 SPORT RETENTION FLOATING OVERRIDE */
+
+/*Playtech.Variables.auxiliarySystemId = 655;*/
+Playtech.Variables.auxiliarySystemId = 265;
+
+/*Playtech.Variables.stickyTabs = [{
+            name: 'Inicio',
+            href: '/casino-en-vivo'
+        }, {
+            name: 'Favorites',
+            href: '/casino-en-vivo/favorites'
+        }, {
+            name: 'Ruleta',
+            href: '/casino-en-vivo/ruleta'
+        }, {
+            name: 'Cartas',
+            href: '/casino-en-vivo/cartas'
+        }, {
+            name: 'Todos los juegos',
+            href: '/casino-en-vivo/todos-juegos'
+        }, {
+            name: 'Otros',
+            href: '/casino-en-vivo/otros'
+        }, {
+            name: 'Promociones',
+            href: '/promociones'
+        }, {
+            name: 'Buscar',
+            href: '/home'
+        }];*/
+
+/** Retention Settings for VIP **/
+Playtech.Variables.retentionGames = {
+    LORDAN_TREASURE_HUNTING: {
+        notEligibleURL: '/promotions/daily-hunt',
+        userPlayedURL: '/casino',
+    },
+    GO_NUTS:{
+        notEligibleURL: '/promotions/go-nuts',
+        userPlayedURL: '/casino',
+    },
+    AQUILA: {
+      notEligibleURL: "/promociones/penalti-power",
+      termsURL: "/promociones/liga-de-campeones",
+      userPlayedURL: "/casino"
+    },
+    DEFAULT: {
+      notEligibleURL: "/promotions/daily-hunt",
+      termsURL: "/promotions/daily-hunt",
+      userPlayedURL: "/casino"
+    },
+};
+
+/* WINNER-87654 */
+PTTS.override(
+  [
+    'portlets/cashier/withdraw/wplayco-theme/withdraw.method.model',
+    'underscore',
+    'server',
+    'config',
+  ],
+  function (WithdrawMethodModel, _, server, config) {
+    WithdrawMethodModel.prototype.withdraw = function (data) {
+      var request = {
+        ID: 33017,
+        responses: [33057, 33018, 33019],
+        description: 'Withdraw',
+        amount: data.amount,
+        methodCode: this.get('code'),
+      };
+      var action = 'withdraw';
+      var modelConfig = this.get('config');
+
+      var existingAccount = _.findWhere(this.get('account'), {
+        code: data.storedAccountId,
+      });
+
+      var existingAccountFields =
+        (existingAccount &&
+          existingAccount.accountFields &&
+          existingAccount.accountFields.field) ||
+        null;
+      var accountFields =
+        (this.get('accountFields') && this.get('accountFields').field) || [];
+      var isBancolombia = this.get('code') === 'CoPayoutsViaSC';
+      var isNequi = this.get('code') === 'NeqPayoutsViaNV';
+      var isBreBWDviaNV = this.get('code') === 'BreBWDviaNV';
+      request.successUrl = this.getBackUrl(action, 'success');
+      request.errorUrl = this.getBackUrl(action, 'error');
+      request.cancelUrl = this.getBackUrl(action, 'cancel');
+      request.waitingUrl = this.getBackUrl(action, 'waiting');
+
+      if (!this.get('isGeneric') && !isBancolombia && !isNequi && !isBreBWDviaNV) {
+        request.accountCode = this.get('config').creditCard
+          ? data.accountCode
+          : data.accountId;
+      } else if (modelConfig && modelConfig.accountFieldsMap) {
+        // account has hardcore `accountFieldsMap`
+        var fields = this._makeSimilarDataStructure(
+          modelConfig.accountFieldsMap,
+        );
+
+        request.specificParams = this.specParamsFormation(data, fields);
+      } else if (existingAccountFields) {
+        // account received in 33012
+        request.specificParams = this.specParamsFormation(
+          data,
+          existingAccountFields,
+        );
+      } else if (accountFields) {
+        // new account
+        request.specificParams = this.specParamsFormation(data, accountFields);
+      }
+
+      var isEasyEFTPayouts = this.get('code') === 'EasyEFTPayouts';
+
+      if (isEasyEFTPayouts && !existingAccountFields) {
+        request.specificParams = _.pick(data, 'field1', 'field2');
+      }
+
+      _.extend(request, _.pick(data, this.confirmedFields));
+
+      if (config.get('cashierClientType')) {
+        request.clienttype = config.get('cashierClientType');
+      }
+
+      if (!config.get('sendCashierMessagesToGS')) {
+        request.xNoPlayermessageToGs = true;
+      }
+
+      if (isNequi) {
+        request.specificParams.field3 = '000507';
+        request.specificParams.field4 = 'CA';
+        request.specificParams.field8 = 'CDC';
+      }
+
+      return server.send(request);
+    };
+  },
+);
+
+/* WINNER-87654 */
+
+/** WINNER-41576 by Y.Borodai **/
+PTTS.override([
+  'portlets/registration/wplayco-theme/registration.view',
+  'portlets/registration/common-theme/registration.view',
+  'underscore',
+], function(RegistrationView, CommonRegistrationView, _) {
+    RegistrationView.prototype.events = _.extend(CommonRegistrationView.prototype.events, {
+            'tap .fn-terms-popup-open': 'openTermsPopup',
+            'change .fn-departmentOfResidence': 'setDynamicSelectOptions',
+            'tap input[type="checkbox"]': 'handleChangeCheckbox'
+    });
+     RegistrationView.prototype.handleChangeCheckbox = function() {
+      setTimeout(this.handleFormChange.bind(this), 100);
+    };
+});
+/** E.O. WINNER-41576 **/
+
+
+/* WINNER-52309  */
+/*
+PTTS.override(['portlets/cashier/pending/wplayco-theme/pending.item.view', 'user', 'config', 'modules/popup/popup.view', 'j'], function(PendingItemView, user, config, PopupView, $) {
+  PendingItemView.prototype.resendPinRequest = function(resp, tx, method) {
+
+    const username = user.get('username');
+    const iovationHost = config.get('iovationHost');
+    const url = iovationHost + '/shops/aliados/withdraw/resend-pin/?token=' + resp.data.token + '&transactionId=' + tx + '&username=' + username + '&method=' + method;
+    var successResponseButtonTitle = this.translate('playtech.mobile.system.popup.pending-withdraw.resendPin.success-response.close');
+
+    $.ajax({
+      url: url,
+      dataType: 'json',
+      type: 'GET'
+    }).done(function(dataFromService) {
+      new PopupView({
+        data: {
+          content: dataFromService.description,
+          buttons: [{
+            title: successResponseButtonTitle,
+            className: 'cancel-close fn-close'
+          }]
+        },
+      });
+    }.bind(this)).fail(function(response) {
+      new PopupView({
+        data: {
+          content: this.translate('playtech.mobile.system.popup.pending-withdraw.resendPin.error-response.title'),
+          buttons: [{
+            title: this.translate('playtech.mobile.system.popup.pending-withdraw.resendPin.error-response.close'),
+            className: 'cancel-close fn-close'
+          }]
+        },
+      });
+    }.bind(this));
+  };
+  
+  PendingItemView.prototype.showCancelIssuedPopup = function(e) {
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    this.cancelIssuedPopup = new PopupView({
+      data: {
+        content: this.translate('playtech.mobile.system.popup.pending-withdraw.cancelIssued.title'),
+        buttons: [{
+            title: this.translate('playtech.mobile.system.popup.pending-withdraw.cancelIssued.decline-cancel'),
+            className: 'dont-cancel'
+          },
+          {
+            title: this.translate('playtech.mobile.system.popup.pending-withdraw.cancelIssued.accept-cancel'),
+            className: 'cancel-issued'
+          }
+        ]
+      },
+      additionalEvents: {
+        'tap .cancel-issued': this.handleCancelIssued.bind(this),
+        'tap .dont-cancel': function() {
+          this.close();
+        }
+      },
+      className: PopupView.prototype.className + ' cancel-issued-popup'
+    });
+  };
+
+  PendingItemView.prototype.cancelIssuedRequest = function(resp, tx) {
+
+    const username = user.get('username');
+    const iovationHost = config.get('iovationHost');
+    const url = iovationHost + '/shops/aliados/withdraw/cancel/?token=' + resp.data.token + '&transactionId=' + tx + '&username=' + username;
+    var successResponseButtonTitle = this.translate('playtech.mobile.system.popup.pending-withdraw.cancelIssued.success-response.close');
+
+    $.ajax({
+      url: url,
+      dataType: 'json',
+      type: 'GET'
+    }).done(function(dataFromService) {
+      new PopupView({
+        data: {
+          content: dataFromService.description,
+          buttons: [{
+            title: successResponseButtonTitle,
+            className: 'cancel-close fn-close'
+          }]
+        },
+      });
+    }.bind(this)).fail(function(response) {
+      new PopupView({
+        data: {
+          content: this.translate('playtech.mobile.system.popup.pending-withdraw.cancelIssued.error-response.title'),
+          buttons: [{
+            title: this.translate('playtech.mobile.system.popup.pending-withdraw.cancelIssued.error-response.close'),
+            className: 'cancel-close fn-close'
+          }]
+        },
+      });
+    }.bind(this));
+  };
+
+});
+*/
+/* WINNER-52309  */
+
+// Playtech.Variables.lpOfferIDs = ['2400', 'spin-page', 'spin-roulette', '100free', '200up500', '100up100', 'spin-wheel-99', '200freespins', 'wplaycasgo07'];
+
+/*Laura pagination for slots categories*/
+Playtech.Variables.gamesCategoriesCustomConfig = [
+    {
+        "name": "destacados",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+        "name": "nuevos",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+        "name": "jackpots",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+        "name": "cashcollect",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+        "name": "dropsnwins",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+        "name": "megaways",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+        "name": "bingo",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+        "name": "playngo",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+        "name": "greentube",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+        "name": "volatility",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+        "name": "slots",
+        "slider": true,
+        "moreLink": true
+    },
+    {
+        "name": "amusnet",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+        "name": "zitro",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+        "name": "pariplay",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+        "name": "destacados",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+        "name": "igt",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+       "name": "rubyplay",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+       "name": "synot",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+       "name": "bf",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+       "name": "pragmatic",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+       "name": "redrake",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+       "name": "relax",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+       "name": "areaw",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+       "name": "7777",
+        "slider": true,
+        "moreLink": false
+    },
+    {
+       "name": "betixon",
+        "slider": true,
+        "moreLink": false
+    }
+];
+
+// PTTS.override([
+// 'portlets/cashier/withdraw/wplayco-theme/withdraw.view',
+// 'portlets/cashier/withdraw/common-theme/withdraw.view',
+// 'core',
+// 'modules/popup/wplayco-theme/popup.view',
+// 'util/device.util'
+// ], function (WithdrawView, WithdrawViewCommon, core, PopupView, device) {
+// WithdrawView.prototype.initialize = function () {
+//   this.listenTo(core, 'server:message', function (e) {
+//     if (
+//       e.ID === 31133 &&
+//       e.data &&
+//       e.data.action &&
+//       e.data.action.showMessageNotificationInfo &&
+//       e.data.action.showMessageNotificationInfo.templateId &&
+//       (e.data.action.showMessageNotificationInfo.templateId === 'wplay_SUB_wd_restriction' ||
+//         e.data.action.showMessageNotificationInfo.templateId.includes('WD')) 
+//     ) {
+//       setTimeout(function () {
+//         if (e.data.action.showMessageNotificationInfo.message) {
+//           var popup = new PopupView({
+//             data: {
+//               className: 'wd-accepted',
+//               content: e.data.action.showMessageNotificationInfo.message,
+//             },
+//           });
+//         }
+//       }, 300);
+//     }
+//   });
+
+//   return WithdrawViewCommon.prototype.initialize.apply(this, arguments);
+// };
+// });
+
+/*
+WINNER-62584
+
+PTTS.override(['replacers/wplayco-theme/video-stream/video-stream.view', 'underscore', 'portlets/games-info/common-theme/gamesinfo.livegames.polling'], function(VideoStream, _, liveGames) {
+  VideoStream.prototype.updateLiveData = function() {
+    var game = _.find(liveGames.json, function(item) {
+      if (_.isArray(item.launchAlias)) {
+        return item.launchAlias.includes(this.gameCode);
+      }
+      return false;
+    }.bind(this));
+    
+    if (!game) {
+      return;
+    }
+    var betlimit = liveGames.config[this.gameCode];
+
+    this.$el.find('.preload-image').removeClass('hidden').attr('src', game.dynamicImageUrl);
+    this.$el.find('.game-data').removeClass('hidden').html(this.tmpl('common.live.game.props', {
+      betmin: betlimit ? betlimit.defaults[0] : 0,
+      betmax: betlimit ? betlimit.defaults[1] : 0,
+      result: game.result.lastNumbers,
+      name: game.name,
+      playerCount: game.playerCount,
+      liveGamePropsEnabled: true
+    }));
+  }
+});
+
+*/
+
+/*Playtech.Variables.stickyFooterGameFeed = {
+    "desktop": {
+        "name": "Slots Page - New Design"
+    },
+    "tablet": {
+        "name": "Slots Page - New Design"
+    },
+    "mobile": {
+        "name": "Slots Page - New Design"
+    },
+    "category": "nuevos"
+};
+*/
+
+Playtech.Variables.gamesInfoFilters = [
+    {
+        "name": "studio",
+        "tkTemplate": "playtech.mobile.system.gamesinfo-filter.studio.[VALUE]",
+        "type": "checkbox",
+        "items": ["amusnet","betixon","greentube","isoftbet","mga","microgaming","pariplay","play_n_go","playtech","pragmatic","zitro","igt","spribe","rubyplay","synot","beefee","redrake","relax","7777"]
+    },
+    {
+        "name": "special",
+        "tkTemplate": "playtech.mobile.system.gamesinfo-filter.special.[VALUE]",
+        "type": "checkbox",
+        "items": ["aogs","blitz","cc","fireblaze","goldenchips","kr","megaways","pp","crashgame"]
+    },
+    {
+        "name": "features",
+        "tkTemplate": "playtech.mobile.system.gamesinfo-filter.features.[VALUE]",
+        "type": "checkbox",
+        "items": ["autospin","bonus_rounds","book_of","buy_in","cluster","double","double_up","expanding_symbols","free_spins","free_spins_bonus","freespins","golden_chips","multiplier","pays_both_ways","respins","scatter_symbols","special_wilds","stack","tumbline_reels","tumbling_reels","turbo_mode"]
+    },
+    {
+        "name": "theme",
+        "tkTemplate": "playtech.mobile.system.gamesinfo-filter.theme.[VALUE]",
+        "type": "checkbox",
+        "items": ["ancient_worlds","animales","asian","bank_money","beach","beauty_love","cartoon","classic","fantasy","festival_party","fire_fireworks","food","fortune","fruit","gems","goldmine_minings","holidays","jungle","magic","medieval","movies_and_tv","music","nature","olympus","pirates","retro","space_science","sports","superheros","vampires_zombie","vikings","war_military","water","wild_west"]
+    },
+    {
+        "name": "paylines",
+        "tkTemplate": "playtech.mobile.system.gamesinfo-filter.paylines.[VALUE]",
+        "type": "checkbox",
+        "items": ["1-15","16-25","26-50","51_and_more"]
+    },
+    {
+        "name": "volatility",
+        "tkTemplate": "playtech.mobile.system.gamesinfo-filter.volatility.[VALUE]",
+        "type": "checkbox",
+        "items": ["high","medium","low"]
+    }
+];
+
+Playtech.Variables.zendeskChat = {
+  enabled: true,
+  guestAvailability: false,
+  userAvailability: false,
+  showButton: true,
+  chatJsUrl: "https://static.zdassets.com/ekr/snippet.js",
+  key: "d2bdd5c3-11f5-44de-9445-55a0bc7fd001",
+  iframeUrl: "https://jslib.wplay.co/sportinj/wplayco/zenchat/?product=casino"
+};
+
+//ADD SEON integration
+PTTS.override(['managers/wplayco-theme/auth.manager', 'underscore', 'j', 'config', 'common/formatter', 'server'], function(AuthManager, _, $, config, formatter, server) {
+  AuthManager.prototype._registrationRequest = function(data, requests, options) {
+    var def = $.Deferred();
+    var request = {
+      ID: 31007,
+      responses: [33006, 31008],
+      description: 'Create Player Info (Register)',
+      clientVersion: config.get('clientVersion'),
+      realMode: config.get('realMode'),
+      casinoName: config.get('casinoName'),
+      changeTimestamp: formatter.getDateForIms(new Date()),
+      dataMap: data
+    };
+
+    if (window.seon) {
+      window.seon.getSession().then(function(blackbox) {
+        if (blackbox) {
+          // console.log('SEON wplayco bb', blackbox)
+          _.extend(request, {
+            customData: [{
+              'key': 'iovationBlackbox',
+              'value': blackbox
+            }]
+          });
+        }
+  
+        server.send(request)
+          .done(function() {
+            this._contactPreferencesRequest(data, requests)
+              .always(function() {
+                this._successRegistration(data, options);
+                def.resolve();
+              }.bind(this));
+          }.bind(this))
+          .fail(function(error) {
+            def.reject(error);
+          });
+      }.bind(this)).catch(function(error) {
+        console.error('Error getting SEON blackbox:', error);
+        def.reject(error);
+      }); 
+    }
+
+    return def.promise();
+  }
+});
+
+// Disabling Iovation
+Playtech.Variables.iovationEnabled = false;;
+    // ]]>
+</script>
+    <!--script src="https://vjs.zencdn.net/7.19.2/video.min.js"></script-->
+
+<style>
+html:not(.desktop) .winners-feed .winners-item__image {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.desktop .winners-feed .winners-item__image {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.gpas .toggle-promo-btn, .ngm .toggle-promo-btn, .cashier-page .toggle-promo-btn {
+  display: none;
+}
+
+@font-face {
+  font-family: "DINPro-Medium";
+  src: url("/library/dorada/fonts/DINPro-Medium.woff2") format("woff2"), url("/library/dorada/fonts/DINPro-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "DINPro-Bold";
+  src: url("/library/dorada/fonts/DINPro-Bold.woff2") format("woff2"), url("/library/dorada/fonts/DINPro-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "DINPro-Black";
+  src: url("/library/dorada/fonts/DINPro-Black.woff2") format("woff2"), url("/library/dorada/fonts/DINPro-Black.woff") format("woff");
+}
+
+.promoCounter-promo.casino.active .promo-wrapper-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.promoCounter-promo.casino.active .promo-wrapper {
+  transform: translateY(-50%) translateX(-50%);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.promo-wrapper-overlay {
+  display: none;
+}
+
+.casino .promo-wrapper-overlay {
+  display: block;
+  position: fixed;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: rgba(56, 57, 134, .75);
+  transition: .1s;
+  pointer-events: none;
+  z-index: 998;
+}
+
+.toggle-promo-btn {
+  position: fixed;
+  top: 35%;
+  right: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  max-width: 200px;
+  background-color: transparent;
+  animation: slidein .82s cubic-bezier(.36, .07, .19, .97) both;
+  z-index: 100;
+  cursor: pointer;
+  box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px, rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+  height: 60px;
+}
+
+.toggle-promo-btn img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.toggle-promo-btn:focus {
+  outline: none;
+}
+
+.toggle-promo-btn:active {
+  outline: none;
+}
+
+.toggle-promo-btn:hover {
+  outline: none;
+}
+
+.promo-wrapper {
+  position: relative;
+  padding: 0.75em;
+  text-align: center;
+  width: calc(100% - 2em);
+  max-width: 25.5em;
+  font-family: "DINPro-Medium";
+  background-image: url(/library/dorada/background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  border-radius: 1em;
+  border: 2px solid #340249;
+}
+
+.promo-wrapper * {
+  box-sizing: border-box !important;
+}
+
+.tickets-amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.65em;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.1em;
+}
+
+.tickets-amount__value {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DINPro-Black";
+  position: relative;
+  font-size: 3.8em;
+  height: 1.5em;
+  min-width: 1em;
+  color: #ffcc30;
+  font-weight: 800;
+  margin: 0 0.35em;
+  letter-spacing: normal;
+}
+
+.tickets-amount__value::after {
+  content: '';
+  display: block;
+  border: 2px solid currentColor;
+  width: 1.45em;
+  height: 1.40em;
+  position: absolute;
+  border-radius: 50%;
+  top: 0.1em;
+  z-index: 1;
+}
+
+.promo-wrapper__logo {
+  margin-bottom: 0.1em;
+  margin-top: -1.3em;
+  max-width: 80%;
+}
+
+.flip-clock__heading {
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.914em;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.15em;
+}
+
+.promo-footer {
+  text-align: center;
+  line-height: 1;
+}
+
+.promo-footer__action {
+  display: block;
+  color: #fff !important;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.promo-footer__action:hover {
+  text-decoration: underline;
+}
+
+.promo-footer__action b {
+  font-size: 1.1em;
+  font-family: "DINPro-Black";
+}
+
+.promo-footer__footnote {
+  color: #ba8f3a;
+  font-size: 0.75em;
+}
+
+.flip-clock {
+  text-align: center;
+  perspective: 400px;
+  margin-bottom: 0.625em;
+}
+
+.flip-clock__piece {
+  display: inline-block;
+  margin: 0 0.3em;
+  font-family: "DINPro-Bold";
+}
+
+.flip-clock__slot {
+  display: block;
+  color: #ffcc30;
+  text-transform: uppercase;
+  font-size: 0.461em;
+  line-height: 1.1;
+  font-weight: 800;
+}
+
+.card {
+  display: block;
+  position: relative;
+  padding-bottom: 0.86em;
+  font-size: 1.45em;
+  line-height: 1.2;
+  margin-bottom: 0.25em;
+}
+
+.card__separator, .card__separator::before, .card__separator::after {
+  display: block;
+  position: absolute;
+}
+
+.card__separator {
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #2b3e4f;
+  transform: translateY(-50%);
+  box-shadow: 0 0 transparent, 0 0.5px #1ca58e, 0 0 0.05px #116258;
+  z-index: 10;
+  height: 1px;
+}
+
+.card__separator::before, .card__separator::after {
+  content: "";
+  background-color: #2b3e4f;
+  box-shadow: 0 0.5px 0 #1ca58e;
+  width: 4px;
+  height: 5px;
+  top: -2px;
+}
+
+.card__separator::before {
+  left: 0;
+}
+
+.card__separator::after {
+  right: 0;
+}
+
+.card__top, .card__bottom, .card__back::before, .card__back::after {
+  display: block;
+  height: 0.86em;
+  color: #fff;
+  background: #000324;
+  padding: 0.25em 0.25em;
+  border-radius: 0.30em 0.30em 0 0;
+  backface-visiblity: hidden;
+  transform-style: preserve-3d;
+  width: 1.72em;
+}
+
+.card__bottom {
+  color: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-radius: 0 0 0.30em 0.30em;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.card__bottom::after {
+  display: block;
+  margin-top: -0.86em;
+}
+
+.card__back::before, .card__bottom::after {
+  content: attr(data-value);
+  width: 1.2em;
+}
+
+.tickets-amount__value::before {
+  content: attr(data-tickets);
+  z-index: 2;
+}
+
+.card__back {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  left: 0%;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.card__back::before {
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+  will-change: transform;
+}
+
+.flip .card__back::before {
+  animation: flipTop 0.3s cubic-bezier(0.37, 0.01, 0.94, 0.35);
+  animation-fill-mode: both;
+  transform-origin: center bottom;
+}
+
+.flip .card__back .card__bottom {
+  animation-fill-mode: both;
+  animation: flipBottom 0.6s cubic-bezier(0.15, 0.45, 0.28, 1);
+  transform-origin: center top;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes flipTop {
+  0% {
+    transform: rotateX(0deg);
+    z-index: 2;
+  }
+  0%, 99% {
+    opacity: 0.99;
+  }
+  100% {
+    transform: rotateX(-90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes flipBottom {
+  0%, 50% {
+    z-index: -1;
+    transform: rotateX(90deg);
+    opacity: 0;
+  }
+  51% {
+    opacity: 0.99;
+  }
+  100% {
+    opacity: 0.99;
+    transform: rotateX(0deg);
+    z-index: 5;
+  }
+}
+
+.casino .promo-wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-100%) translateX(-50%);
+  box-shadow: 12px 11px 51px 0px rgba(16, 3, 2, 0.75);
+  transition: .42s;
+  z-index: 999;
+  will-change: opacity, translateY;
+}
+
+.casino .card {
+  font-size: 1.875em;
+}
+
+.casino .promo-wrapper__body {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.casino .flip-clock {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.casino .flip-clock__heading {
+  margin-bottom: 1em;
+  font-size: 0.814em;
+}
+
+.casino .card {
+  margin-bottom: 0.35em;
+}
+
+.casino .promo-footer__action {
+  font-size: 0.9em;
+}
+
+.casino .tickets-amount {
+  flex-direction: column;
+  margin-bottom: 0;
+  padding-right: 3.5em;
+  padding-left: 2em;
+  text-transform: uppercase;
+  border-right: 1px solid #ffcc30;
+}
+
+.tickets-amount--casino {
+  display: none;
+}
+
+.casino .tickets-amount--casino {
+  display: inline;
+}
+
+.casino .tickets-amount--desktop {
+  display: none;
+}
+
+.casino .tickets-amount__value {
+  order: 3;
+}
+
+.casino .promo-wrapper__close-button {
+  display: block;
+}
+
+.promo-wrapper__close-button {
+  border-radius: 50%;
+  padding: 0.5em;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #02294b;
+  color: #02294b;
+  position: relative;
+  transform: scale(0.8);
+}
+.promo-wrapper__close-button:hover {
+  border: 2px solid #02294b;
+  color: #ffffff;
+}
+
+.promo-wrapper__close-button::before {
+  content: " ";
+  position: absolute;
+  display: block;
+  background-color: currentColor;
+  width: 2px;
+  left: 12px;
+  top: 5px;
+  bottom: 5px;
+  transform: rotate(45deg);
+}
+.promo-wrapper__close-button::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  background-color: currentColor;
+  height: 2px;
+  top:12px;
+  left: 5px;
+  right: 5px;
+  transform: rotate(45deg);
+}
+
+.promo-wrapper__close-button {
+  display: none;
+  position: absolute;
+  background: transparent;
+  right: 0.325em;
+  top: 0.3125em;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+
+.promo-wrapper__close-button:focus {
+  outline: none;
+}
+
+.promo-wrapper__close-button:active {
+  outline: none;
+}
+
+@media (max-width: 375px) {
+  .casino .card {
+    font-size: 1.5em;
+  }
+  .casino .tickets-amount {
+    padding-right: 2em;
+    padding-left: 0.8em;
+  }
+}
+
+@media (max-width: 475px) {
+  .toggle-promo-btn {
+    top: 40%;
+  }
+}
+
+.toggle-promo-btn.dorada-promo-widget {
+  top: 25%;
+}
+
+.tickets-amount--mobile {
+  display: none;
+}
+
+.casino .tickets-amount--mobile {
+  display: block;
+}
+
+.casino .promo-wrapper__logo {
+  max-width: auto;
+}
+
+.casino .promo-footer__footnote {
+  font-size: 0.85rem;
+}
+
+.loged-out~.toggle-promo-btn {
+  display: none;
+}
+
+.flip-clock__piece:nth-child(n+5) {
+  display: none;
+}
+
+.mundialistas-promo-widget .promo-wrapper {
+  background-image: url(/library/mundialista/bg.png);
+  border-color: #fff;
+}
+
+.mundialistas-promo-widget .promo-wrapper__close-button,
+.mundialistas-promo-widget .tickets-amount__value,
+.mundialistas-promo-widget .flip-clock__slot,
+.casino .mundialistas-promo-widget .promo-footer__footnote {
+  color: #fff;
+}
+
+.casino .mundialistas-promo-widget .tickets-amount,
+.mundialistas-promo-widget .promo-wrapper__close-button {
+  border-color: #fff;
+}
+
+.mundialistas-promo-widget .card__top, 
+.mundialistas-promo-widget .card__bottom {
+  background: #fff;
+  color: #72010d;
+}
+</style>
+
+<!-- Start: Leaderboard title fix -->
+<style>
+  .portlet-leaderboard-page div[class*=StartStatusBadge__onPage] {
+    padding: 1.3em 0 0;
+    width: 14em;
+  }
+
+  .portlet-leaderboard-page div[class*=StartStatusBadge__onPage], .portlet-leaderboardslider div[class*=StartStatusBadge__onPage], .portlet-races-list div[class*=StartStatusBadge__onPage], .react-popup-container div[class*=StartStatusBadge__onPage] {
+    background-size: cover;    
+  }
+</style>
+<!-- End: Leaderboard title fix -->
+
+<style>
+  .tablet .lg-betlimit-max {
+    display: initial;
+  }
+  
+  .mobile .lg-betlimit-max {
+    display: initial;
+  }
+  
+  .product_livecasino:not(.pageclass_home) .gamesinfo__img.gamesinfo__img_style_extended.fn-resize-item.fn-game-image::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(180deg, transparent 60%, #1b2741);
+    pointer-events: none;
+  }
+  
+  .video-stream-container  {
+    background-image: url(/library/video-stream-assets/background-img-2.png);
+    background-size: cover;
+    background-position: center;
+    min-height: unset !important;
+  }
+  
+  /* WINNER-91653 by O.Holyhin */
+  .desktop .video-banner--live-bottom .video-stream-container {
+    min-height: 450px !important;
+  }
+  /** E.O. WINNER-91653 **/
+  
+  .video-stream-container .game-data {
+    z-index: 10;
+  }
+  
+  .mobile .video-js video {
+    margin-bottom: -4px;
+  }
+  
+  .vjs-error-display {
+    display: none !important;
+  }
+  
+  .video-stream-container.hidden-results {
+    background-image: url(/library/video-stream-assets/background-img-1.png);
+  }
+  
+  .video-stream-replacer .fn-launch-game {
+    z-index: 10;
+  }
+</style>
+  <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a541f6c1987d7d6e',t:'MTc5MzYxMDE4Mw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a541f6c1987d7d6e',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

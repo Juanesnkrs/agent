@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /sstp*
+Disallow: 
+Crawl-delay: 2
+Noindex: 
+
+Sitemap: https://www.betsson.co/sitemap.xml

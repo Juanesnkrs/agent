@@ -1,0 +1,7 @@
+event_id,home,away,start_time,market,line,selection,bookmaker,decimal_odds,captured_at
+nba-2026-11-03-lal-bos,Los Angeles Lakers,Boston Celtics,2026-11-03T00:30:00Z,moneyline,,home,Book A,2.10,2026-11-02T18:00:00Z
+nba-2026-11-03-lal-bos,Los Angeles Lakers,Boston Celtics,2026-11-03T00:30:00Z,moneyline,,away,Book B,2.15,2026-11-02T18:01:00Z
+nba-2026-11-03-lal-bos,Los Angeles Lakers,Boston Celtics,2026-11-03T00:30:00Z,total,220.5,over,Book A,1.95,2026-11-02T18:02:00Z
+nba-2026-11-03-lal-bos,Los Angeles Lakers,Boston Celtics,2026-11-03T00:30:00Z,total,220.5,under,Book B,2.05,2026-11-02T18:03:00Z
+nba-2026-11-03-lal-bos,Los Angeles Lakers,Boston Celtics,2026-11-03T00:30:00Z,handicap,-4.5,home,Book A,1.91,2026-11-02T18:04:00Z
+nba-2026-11-03-lal-bos,Los Angeles Lakers,Boston Celtics,2026-11-03T00:30:00Z,handicap,4.5,away,Book B,2.00,2026-11-02T18:05:00Z

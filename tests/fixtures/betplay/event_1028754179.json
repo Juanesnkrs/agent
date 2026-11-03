@@ -1,0 +1,1034 @@
+{
+ "betOffers": [
+  {
+   "id": 2711738539,
+   "criterion": {
+    "id": 1001159732,
+    "label": "Ganador - Prórroga incluida",
+    "englishLabel": "Moneyline - Including Overtime",
+    "order": [],
+    "occurrenceType": "POINTS",
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 2,
+    "name": "Partido",
+    "englishName": "Match"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399921825,
+     "label": "Cleveland Cavaliers",
+     "englishLabel": "Cleveland Cavaliers",
+     "odds": 1580,
+     "participant": "Cleveland Cavaliers",
+     "type": "OT_ONE",
+     "betOfferId": 2711738539,
+     "changedDate": "2026-11-02T00:51:52Z",
+     "participantId": 1000000216,
+     "oddsFractional": "4/7",
+     "oddsAmerican": "-175",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 0
+    },
+    {
+     "id": 4399921826,
+     "label": "Oklahoma City Thunder",
+     "englishLabel": "Oklahoma City Thunder",
+     "odds": 2430,
+     "participant": "Oklahoma City Thunder",
+     "type": "OT_TWO",
+     "betOfferId": 2711738539,
+     "changedDate": "2026-11-02T00:51:52Z",
+     "participantId": 1000457716,
+     "oddsFractional": "7/5",
+     "oddsAmerican": "143",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "OFFERED_LIVE",
+    "BET_BUILDER",
+    "MAIN"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711738540,
+   "criterion": {
+    "id": 1001159509,
+    "label": "Total de puntos - Prórroga incluida",
+    "englishLabel": "Total Points - Including Overtime",
+    "order": [],
+    "occurrenceType": "POINTS",
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 6,
+    "name": "Más/Menos de",
+    "englishName": "Over/Under"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399921827,
+     "label": "Más de",
+     "englishLabel": "Over",
+     "odds": 1810,
+     "line": 227500,
+     "type": "OT_OVER",
+     "betOfferId": 2711738540,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "oddsFractional": "4/5",
+     "oddsAmerican": "-124",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 0
+    },
+    {
+     "id": 4399921828,
+     "label": "Menos de",
+     "englishLabel": "Under",
+     "odds": 2020,
+     "line": 227500,
+     "type": "OT_UNDER",
+     "betOfferId": 2711738540,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "oddsFractional": "Evens",
+     "oddsAmerican": "102",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "OFFERED_LIVE",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711738541,
+   "criterion": {
+    "id": 1001159509,
+    "label": "Total de puntos - Prórroga incluida",
+    "englishLabel": "Total Points - Including Overtime",
+    "order": [],
+    "occurrenceType": "POINTS",
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 6,
+    "name": "Más/Menos de",
+    "englishName": "Over/Under"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399921829,
+     "label": "Más de",
+     "englishLabel": "Over",
+     "odds": 2060,
+     "line": 230500,
+     "type": "OT_OVER",
+     "betOfferId": 2711738541,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "oddsFractional": "21/20",
+     "oddsAmerican": "106",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 0
+    },
+    {
+     "id": 4399921830,
+     "label": "Menos de",
+     "englishLabel": "Under",
+     "odds": 1780,
+     "line": 230500,
+     "type": "OT_UNDER",
+     "betOfferId": 2711738541,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "oddsFractional": "10/13",
+     "oddsAmerican": "-129",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "OFFERED_LIVE",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711758738,
+   "criterion": {
+    "id": 1001159512,
+    "label": "Hándicap de Puntos - Prórroga incluida",
+    "englishLabel": "Point Spread - Including Overtime",
+    "order": [],
+    "occurrenceType": "POINTS",
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 1,
+    "name": "Handicap",
+    "englishName": "Handicap"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399910484,
+     "label": "Cleveland Cavaliers",
+     "englishLabel": "Cleveland Cavaliers",
+     "odds": 1570,
+     "line": 500,
+     "participant": "Cleveland Cavaliers",
+     "type": "OT_ONE",
+     "betOfferId": 2711758738,
+     "changedDate": "2026-11-02T00:51:05Z",
+     "participantId": 1000000216,
+     "oddsFractional": "11/20",
+     "oddsAmerican": "-177",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 0
+    },
+    {
+     "id": 4399910485,
+     "label": "Oklahoma City Thunder",
+     "englishLabel": "Oklahoma City Thunder",
+     "odds": 2430,
+     "line": -500,
+     "participant": "Oklahoma City Thunder",
+     "type": "OT_TWO",
+     "betOfferId": 2711758738,
+     "changedDate": "2026-11-02T00:51:05Z",
+     "participantId": 1000457716,
+     "oddsFractional": "7/5",
+     "oddsAmerican": "143",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "OFFERED_LIVE",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711759634,
+   "criterion": {
+    "id": 1001159512,
+    "label": "Hándicap de Puntos - Prórroga incluida",
+    "englishLabel": "Point Spread - Including Overtime",
+    "order": [],
+    "occurrenceType": "POINTS",
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 1,
+    "name": "Handicap",
+    "englishName": "Handicap"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399965032,
+     "label": "Cleveland Cavaliers",
+     "englishLabel": "Cleveland Cavaliers",
+     "odds": 2250,
+     "line": -6500,
+     "participant": "Cleveland Cavaliers",
+     "type": "OT_ONE",
+     "betOfferId": 2711759634,
+     "changedDate": "2026-11-02T00:51:31Z",
+     "participantId": 1000000216,
+     "oddsFractional": "5/4",
+     "oddsAmerican": "125",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 0
+    },
+    {
+     "id": 4399965033,
+     "label": "Oklahoma City Thunder",
+     "englishLabel": "Oklahoma City Thunder",
+     "odds": 1660,
+     "line": 6500,
+     "participant": "Oklahoma City Thunder",
+     "type": "OT_TWO",
+     "betOfferId": 2711759634,
+     "changedDate": "2026-11-02T00:51:31Z",
+     "participantId": 1000457716,
+     "oddsFractional": "13/20",
+     "oddsAmerican": "-152",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "OFFERED_LIVE",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711759635,
+   "criterion": {
+    "id": 1001159837,
+    "label": "Total de puntos de Oklahoma City Thunder - Prórroga incluida",
+    "englishLabel": "Total Points by Oklahoma City Thunder - Including Overtime",
+    "order": [],
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 6,
+    "name": "Más/Menos de",
+    "englishName": "Over/Under"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399965034,
+     "label": "Más de",
+     "englishLabel": "Over",
+     "odds": 1750,
+     "line": 111500,
+     "type": "OT_OVER",
+     "betOfferId": 2711759635,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "oddsFractional": "3/4",
+     "oddsAmerican": "-134",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 0
+    },
+    {
+     "id": 4399965035,
+     "label": "Menos de",
+     "englishLabel": "Under",
+     "odds": 2020,
+     "line": 111500,
+     "type": "OT_UNDER",
+     "betOfferId": 2711759635,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "oddsFractional": "Evens",
+     "oddsAmerican": "102",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "OFFERED_LIVE",
+    "MAIN_LINE",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711759636,
+   "criterion": {
+    "id": 1001159509,
+    "label": "Total de puntos - Prórroga incluida",
+    "englishLabel": "Total Points - Including Overtime",
+    "order": [],
+    "occurrenceType": "POINTS",
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 6,
+    "name": "Más/Menos de",
+    "englishName": "Over/Under"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399965036,
+     "label": "Más de",
+     "englishLabel": "Over",
+     "odds": 1500,
+     "line": 222500,
+     "type": "OT_OVER",
+     "betOfferId": 2711759636,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "oddsFractional": "1/2",
+     "oddsAmerican": "-200",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 0
+    },
+    {
+     "id": 4399965037,
+     "label": "Menos de",
+     "englishLabel": "Under",
+     "odds": 2600,
+     "line": 222500,
+     "type": "OT_UNDER",
+     "betOfferId": 2711759636,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "oddsFractional": "8/5",
+     "oddsAmerican": "160",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "OFFERED_LIVE",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711759637,
+   "closed": "2026-11-03T00:00:00Z",
+   "criterion": {
+    "id": 1001223303,
+    "label": "Puntos anotados por el jugador - Prórroga incluida",
+    "englishLabel": "Points scored by the player - Including Overtime",
+    "shortLabel": "Puntos del jugador",
+    "shortEnglishLabel": "Player Points",
+    "order": [],
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 127,
+    "name": "Player Occurrence Line",
+    "englishName": "Player Occurrence Line"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399965038,
+     "label": "Más de",
+     "englishLabel": "Over",
+     "odds": 1780,
+     "line": 13500,
+     "participant": "Jared McCain",
+     "type": "OT_OVER",
+     "betOfferId": 2711759637,
+     "changedDate": "2026-11-02T11:48:09Z",
+     "participantId": 1030038568,
+     "oddsFractional": "10/13",
+     "oddsAmerican": "-129",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "eventParticipantId": 1000457716,
+     "displayOrder": 0
+    },
+    {
+     "id": 4399965039,
+     "label": "Menos de",
+     "englishLabel": "Under",
+     "odds": 1970,
+     "line": 13500,
+     "participant": "Jared McCain",
+     "type": "OT_UNDER",
+     "betOfferId": 2711759637,
+     "changedDate": "2026-11-02T11:48:09Z",
+     "participantId": 1030038568,
+     "oddsFractional": "19/20",
+     "oddsAmerican": "-104",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "eventParticipantId": 1000457716,
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711759642,
+   "criterion": {
+    "id": 1001159509,
+    "label": "Total de puntos - Prórroga incluida",
+    "englishLabel": "Total Points - Including Overtime",
+    "order": [],
+    "occurrenceType": "POINTS",
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 6,
+    "name": "Más/Menos de",
+    "englishName": "Over/Under"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399965058,
+     "label": "Más de",
+     "englishLabel": "Over",
+     "odds": 1460,
+     "line": 221500,
+     "type": "OT_OVER",
+     "betOfferId": 2711759642,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "oddsFractional": "4/9",
+     "oddsAmerican": "-220",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 0
+    },
+    {
+     "id": 4399965059,
+     "label": "Menos de",
+     "englishLabel": "Under",
+     "odds": 2750,
+     "line": 221500,
+     "type": "OT_UNDER",
+     "betOfferId": 2711759642,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "oddsFractional": "7/4",
+     "oddsAmerican": "175",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "OFFERED_LIVE",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711759643,
+   "criterion": {
+    "id": 1001159509,
+    "label": "Total de puntos - Prórroga incluida",
+    "englishLabel": "Total Points - Including Overtime",
+    "order": [],
+    "occurrenceType": "POINTS",
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 6,
+    "name": "Más/Menos de",
+    "englishName": "Over/Under"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399965060,
+     "label": "Más de",
+     "englishLabel": "Over",
+     "odds": 1610,
+     "line": 224500,
+     "type": "OT_OVER",
+     "betOfferId": 2711759643,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "oddsFractional": "3/5",
+     "oddsAmerican": "-165",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 0
+    },
+    {
+     "id": 4399965061,
+     "label": "Menos de",
+     "englishLabel": "Under",
+     "odds": 2330,
+     "line": 224500,
+     "type": "OT_UNDER",
+     "betOfferId": 2711759643,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "oddsFractional": "13/10",
+     "oddsAmerican": "133",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "OFFERED_LIVE",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711759644,
+   "closed": "2026-11-03T00:00:00Z",
+   "criterion": {
+    "id": 1001225285,
+    "label": "Asistencias del jugador - Prórroga incluida",
+    "englishLabel": "Assists by the player - Including Overtime",
+    "shortLabel": "Asistencias del jugador",
+    "shortEnglishLabel": "Player Assists",
+    "order": [],
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 127,
+    "name": "Player Occurrence Line",
+    "englishName": "Player Occurrence Line"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399965062,
+     "label": "Más de",
+     "englishLabel": "Over",
+     "odds": 2070,
+     "line": 1500,
+     "participant": "Aday Mara",
+     "type": "OT_OVER",
+     "betOfferId": 2711759644,
+     "changedDate": "2026-11-02T06:05:54Z",
+     "participantId": 1030040360,
+     "oddsFractional": "21/20",
+     "oddsAmerican": "107",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "eventParticipantId": 1000457716,
+     "displayOrder": 0
+    },
+    {
+     "id": 4399965063,
+     "label": "Menos de",
+     "englishLabel": "Under",
+     "odds": 1700,
+     "line": 1500,
+     "participant": "Aday Mara",
+     "type": "OT_UNDER",
+     "betOfferId": 2711759644,
+     "changedDate": "2026-11-02T06:05:54Z",
+     "participantId": 1030040360,
+     "oddsFractional": "7/10",
+     "oddsAmerican": "-143",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "eventParticipantId": 1000457716,
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711759649,
+   "closed": "2026-11-03T00:00:00Z",
+   "criterion": {
+    "id": 1002884079,
+    "label": "Triples anotados por el jugador - Prórroga incluida",
+    "englishLabel": "3-point field goals made by the player - Including Overtime",
+    "shortLabel": "Triples del jugador",
+    "shortEnglishLabel": "Player Threes ",
+    "order": [],
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 127,
+    "name": "Player Occurrence Line",
+    "englishName": "Player Occurrence Line"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399965072,
+     "label": "Más de",
+     "englishLabel": "Over",
+     "odds": 1680,
+     "line": 1500,
+     "participant": "Shai Gilgeous-Alexander",
+     "type": "OT_OVER",
+     "betOfferId": 2711759649,
+     "changedDate": "2026-11-02T11:43:53Z",
+     "participantId": 1004856632,
+     "oddsFractional": "4/6",
+     "oddsAmerican": "-148",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "eventParticipantId": 1000457716,
+     "displayOrder": 0
+    },
+    {
+     "id": 4399965073,
+     "label": "Menos de",
+     "englishLabel": "Under",
+     "odds": 2100,
+     "line": 1500,
+     "participant": "Shai Gilgeous-Alexander",
+     "type": "OT_UNDER",
+     "betOfferId": 2711759649,
+     "changedDate": "2026-11-02T11:43:53Z",
+     "participantId": 1004856632,
+     "oddsFractional": "11/10",
+     "oddsAmerican": "110",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "eventParticipantId": 1000457716,
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711759653,
+   "closed": "2026-11-03T00:00:00Z",
+   "criterion": {
+    "id": 1001225286,
+    "label": "Rebotes del jugador - Prórroga incluida",
+    "englishLabel": "Rebounds by the player - Including Overtime",
+    "shortLabel": "Rebotes del jugador",
+    "shortEnglishLabel": "Player Rebounds",
+    "order": [],
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 127,
+    "name": "Player Occurrence Line",
+    "englishName": "Player Occurrence Line"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399965080,
+     "label": "Más de",
+     "englishLabel": "Over",
+     "odds": 1870,
+     "line": 4500,
+     "participant": "James Harden",
+     "type": "OT_OVER",
+     "betOfferId": 2711759653,
+     "changedDate": "2026-11-02T00:52:21Z",
+     "participantId": 1000891214,
+     "oddsFractional": "17/20",
+     "oddsAmerican": "-115",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "eventParticipantId": 1000000216,
+     "displayOrder": 0
+    },
+    {
+     "id": 4399965081,
+     "label": "Menos de",
+     "englishLabel": "Under",
+     "odds": 1870,
+     "line": 4500,
+     "participant": "James Harden",
+     "type": "OT_UNDER",
+     "betOfferId": 2711759653,
+     "changedDate": "2026-11-02T00:52:21Z",
+     "participantId": 1000891214,
+     "oddsFractional": "17/20",
+     "oddsAmerican": "-115",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "eventParticipantId": 1000000216,
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711759659,
+   "closed": "2026-11-03T00:00:00Z",
+   "criterion": {
+    "id": 1002884081,
+    "label": "Puntos y asistencias del jugador - Prórroga incluida",
+    "englishLabel": "Points & Assists by the player - Including Overtime",
+    "shortLabel": "Puntos y asistencias del jugador",
+    "shortEnglishLabel": "Player Points & Assists",
+    "order": [],
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 127,
+    "name": "Player Occurrence Line",
+    "englishName": "Player Occurrence Line"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399965092,
+     "label": "Más de",
+     "englishLabel": "Over",
+     "odds": 1850,
+     "line": 25500,
+     "participant": "James Harden",
+     "type": "OT_OVER",
+     "betOfferId": 2711759659,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "participantId": 1000891214,
+     "oddsFractional": "17/20",
+     "oddsAmerican": "-118",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "eventParticipantId": 1000000216,
+     "displayOrder": 0
+    },
+    {
+     "id": 4399965093,
+     "label": "Menos de",
+     "englishLabel": "Under",
+     "odds": 1870,
+     "line": 25500,
+     "participant": "James Harden",
+     "type": "OT_UNDER",
+     "betOfferId": 2711759659,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "participantId": 1000891214,
+     "oddsFractional": "17/20",
+     "oddsAmerican": "-115",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "eventParticipantId": 1000000216,
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711759671,
+   "closed": "2026-11-03T00:00:00Z",
+   "criterion": {
+    "id": 1002884080,
+    "label": "Puntos y rebotes del jugador - Prórroga incluida",
+    "englishLabel": "Points & Rebounds by the player - Including Overtime",
+    "shortLabel": "Puntos y rebotes del jugador",
+    "shortEnglishLabel": "Player Points & Rebounds ",
+    "order": [],
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 127,
+    "name": "Player Occurrence Line",
+    "englishName": "Player Occurrence Line"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399965116,
+     "label": "Más de",
+     "englishLabel": "Over",
+     "odds": 1950,
+     "line": 28500,
+     "participant": "Donovan Mitchell",
+     "type": "OT_OVER",
+     "betOfferId": 2711759671,
+     "changedDate": "2026-11-02T11:48:09Z",
+     "participantId": 1000995670,
+     "oddsFractional": "19/20",
+     "oddsAmerican": "-106",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "eventParticipantId": 1000000216,
+     "displayOrder": 0
+    },
+    {
+     "id": 4399965117,
+     "label": "Menos de",
+     "englishLabel": "Under",
+     "odds": 1780,
+     "line": 28500,
+     "participant": "Donovan Mitchell",
+     "type": "OT_UNDER",
+     "betOfferId": 2711759671,
+     "changedDate": "2026-11-02T11:48:09Z",
+     "participantId": 1000995670,
+     "oddsFractional": "10/13",
+     "oddsAmerican": "-129",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "eventParticipantId": 1000000216,
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711778956,
+   "criterion": {
+    "id": 1001159512,
+    "label": "Hándicap de Puntos - Prórroga incluida",
+    "englishLabel": "Point Spread - Including Overtime",
+    "order": [],
+    "occurrenceType": "POINTS",
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 1,
+    "name": "Handicap",
+    "englishName": "Handicap"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399924944,
+     "label": "Cleveland Cavaliers",
+     "englishLabel": "Cleveland Cavaliers",
+     "odds": 1740,
+     "line": -2500,
+     "participant": "Cleveland Cavaliers",
+     "type": "OT_ONE",
+     "betOfferId": 2711778956,
+     "changedDate": "2026-11-02T00:51:31Z",
+     "participantId": 1000000216,
+     "oddsFractional": "8/11",
+     "oddsAmerican": "-136",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 0
+    },
+    {
+     "id": 4399924945,
+     "label": "Oklahoma City Thunder",
+     "englishLabel": "Oklahoma City Thunder",
+     "odds": 2100,
+     "line": 2500,
+     "participant": "Oklahoma City Thunder",
+     "type": "OT_TWO",
+     "betOfferId": 2711778956,
+     "changedDate": "2026-11-02T00:51:31Z",
+     "participantId": 1000457716,
+     "oddsFractional": "11/10",
+     "oddsAmerican": "110",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "OFFERED_LIVE",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  },
+  {
+   "id": 2711799781,
+   "criterion": {
+    "id": 1001159855,
+    "label": "Total de puntos de Cleveland Cavaliers - Incluyendo prórroga",
+    "englishLabel": "Total Points by Cleveland Cavaliers - Including Overtime",
+    "order": [],
+    "lifetime": "FULL_TIME_OVERTIME"
+   },
+   "betOfferType": {
+    "id": 6,
+    "name": "Más/Menos de",
+    "englishName": "Over/Under"
+   },
+   "eventId": 1028754179,
+   "outcomes": [
+    {
+     "id": 4399988351,
+     "label": "Más de",
+     "englishLabel": "Over",
+     "odds": 1780,
+     "line": 115500,
+     "type": "OT_OVER",
+     "betOfferId": 2711799781,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "oddsFractional": "10/13",
+     "oddsAmerican": "-129",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 0
+    },
+    {
+     "id": 4399988352,
+     "label": "Menos de",
+     "englishLabel": "Under",
+     "odds": 1970,
+     "line": 115500,
+     "type": "OT_UNDER",
+     "betOfferId": 2711799781,
+     "changedDate": "2026-11-02T02:44:20Z",
+     "oddsFractional": "19/20",
+     "oddsAmerican": "-104",
+     "status": "OPEN",
+     "cashOutStatus": "ENABLED",
+     "displayOrder": 1
+    }
+   ],
+   "tags": [
+    "OFFERED_PREMATCH",
+    "OFFERED_LIVE",
+    "MAIN_LINE",
+    "BET_BUILDER"
+   ],
+   "cashOutStatus": "ENABLED"
+  }
+ ],
+ "events": [
+  {
+   "id": 1028754179,
+   "name": "Cleveland Cavaliers - Oklahoma City Thunder",
+   "nameDelimiter": "-",
+   "englishName": "Cleveland Cavaliers - Oklahoma City Thunder",
+   "homeName": "Cleveland Cavaliers",
+   "awayName": "Oklahoma City Thunder",
+   "start": "2026-11-03T00:00:00Z",
+   "group": "NBA",
+   "groupId": 1000093652,
+   "path": [
+    {
+     "id": 1000093204,
+     "name": "Baloncesto",
+     "englishName": "Basketball",
+     "termKey": "basketball"
+    },
+    {
+     "id": 1000093652,
+     "name": "NBA",
+     "englishName": "NBA",
+     "termKey": "nba"
+    }
+   ],
+   "nonLiveBoCount": 407,
+   "sport": "BASKETBALL",
+   "tags": [
+    "OFFERED_LIVE",
+    "BET_BUILDER",
+    "MATCH"
+   ],
+   "state": "NOT_STARTED",
+   "groupSortOrder": 2002000000000000000,
+   "prematchEnd": "2026-11-03T00:00:00Z"
+  }
+ ],
+ "prePacks": []
+}

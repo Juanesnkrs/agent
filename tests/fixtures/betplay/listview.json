@@ -1,0 +1,305 @@
+{
+ "events": [
+  {
+   "event": {
+    "id": 1028754179,
+    "name": "Cleveland Cavaliers - Oklahoma City Thunder",
+    "nameDelimiter": "-",
+    "englishName": "Cleveland Cavaliers - Oklahoma City Thunder",
+    "homeName": "Cleveland Cavaliers",
+    "awayName": "Oklahoma City Thunder",
+    "start": "2026-11-03T00:00:00Z",
+    "group": "NBA",
+    "groupId": 1000093652,
+    "path": [
+     {
+      "id": 1000093204,
+      "name": "Baloncesto",
+      "englishName": "Basketball",
+      "termKey": "basketball"
+     },
+     {
+      "id": 1000093652,
+      "name": "NBA",
+      "englishName": "NBA",
+      "termKey": "nba"
+     }
+    ],
+    "nonLiveBoCount": 407,
+    "sport": "BASKETBALL",
+    "tags": [
+     "OFFERED_LIVE",
+     "BET_BUILDER",
+     "MATCH"
+    ],
+    "state": "NOT_STARTED"
+   },
+   "betOffers": [
+    {
+     "id": 2711738539,
+     "criterion": {
+      "id": 1001159732,
+      "label": "Ganador - Prórroga incluida",
+      "englishLabel": "Moneyline - Including Overtime",
+      "order": [],
+      "occurrenceType": "POINTS",
+      "lifetime": "FULL_TIME_OVERTIME"
+     },
+     "betOfferType": {
+      "id": 2,
+      "name": "Partido",
+      "englishName": "Match"
+     },
+     "eventId": 1028754179,
+     "outcomes": [
+      {
+       "id": 4399921825,
+       "label": "Cleveland Cavaliers",
+       "englishLabel": "Cleveland Cavaliers",
+       "odds": 1580,
+       "participant": "Cleveland Cavaliers",
+       "type": "OT_ONE",
+       "betOfferId": 2711738539,
+       "changedDate": "2026-11-02T00:51:52Z",
+       "participantId": 1000000216,
+       "oddsFractional": "4/7",
+       "oddsAmerican": "-175",
+       "status": "OPEN",
+       "cashOutStatus": "ENABLED",
+       "displayOrder": 0
+      },
+      {
+       "id": 4399921826,
+       "label": "Oklahoma City Thunder",
+       "englishLabel": "Oklahoma City Thunder",
+       "odds": 2430,
+       "participant": "Oklahoma City Thunder",
+       "type": "OT_TWO",
+       "betOfferId": 2711738539,
+       "changedDate": "2026-11-02T00:51:52Z",
+       "participantId": 1000457716,
+       "oddsFractional": "7/5",
+       "oddsAmerican": "143",
+       "status": "OPEN",
+       "cashOutStatus": "ENABLED",
+       "displayOrder": 1
+      }
+     ],
+     "tags": [
+      "OFFERED_PREMATCH",
+      "OFFERED_LIVE",
+      "BET_BUILDER",
+      "MAIN"
+     ],
+     "sortOrder": 1,
+     "cashOutStatus": "ENABLED"
+    }
+   ]
+  },
+  {
+   "event": {
+    "id": 1028754178,
+    "name": "Charlotte Hornets - Detroit Pistons",
+    "nameDelimiter": "-",
+    "englishName": "Charlotte Hornets - Detroit Pistons",
+    "homeName": "Charlotte Hornets",
+    "awayName": "Detroit Pistons",
+    "start": "2026-11-03T00:30:00Z",
+    "group": "NBA",
+    "groupId": 1000093652,
+    "path": [
+     {
+      "id": 1000093204,
+      "name": "Baloncesto",
+      "englishName": "Basketball",
+      "termKey": "basketball"
+     },
+     {
+      "id": 1000093652,
+      "name": "NBA",
+      "englishName": "NBA",
+      "termKey": "nba"
+     }
+    ],
+    "nonLiveBoCount": 394,
+    "sport": "BASKETBALL",
+    "tags": [
+     "OFFERED_LIVE",
+     "BET_BUILDER",
+     "MATCH"
+    ],
+    "state": "NOT_STARTED"
+   },
+   "betOffers": [
+    {
+     "id": 2711793433,
+     "criterion": {
+      "id": 1001159732,
+      "label": "Ganador - Prórroga incluida",
+      "englishLabel": "Moneyline - Including Overtime",
+      "order": [],
+      "occurrenceType": "POINTS",
+      "lifetime": "FULL_TIME_OVERTIME"
+     },
+     "betOfferType": {
+      "id": 2,
+      "name": "Partido",
+      "englishName": "Match"
+     },
+     "eventId": 1028754178,
+     "outcomes": [
+      {
+       "id": 4399913298,
+       "label": "Charlotte Hornets",
+       "englishLabel": "Charlotte Hornets",
+       "odds": 2550,
+       "participant": "Charlotte Hornets",
+       "type": "OT_ONE",
+       "betOfferId": 2711793433,
+       "changedDate": "2026-11-02T09:56:22Z",
+       "participantId": 1000014411,
+       "oddsFractional": "31/20",
+       "oddsAmerican": "155",
+       "status": "OPEN",
+       "cashOutStatus": "ENABLED",
+       "displayOrder": 0
+      },
+      {
+       "id": 4399913299,
+       "label": "Detroit Pistons",
+       "englishLabel": "Detroit Pistons",
+       "odds": 1540,
+       "participant": "Detroit Pistons",
+       "type": "OT_TWO",
+       "betOfferId": 2711793433,
+       "changedDate": "2026-11-02T09:56:22Z",
+       "participantId": 1000000217,
+       "oddsFractional": "8/15",
+       "oddsAmerican": "-186",
+       "status": "OPEN",
+       "cashOutStatus": "ENABLED",
+       "displayOrder": 1
+      }
+     ],
+     "tags": [
+      "OFFERED_PREMATCH",
+      "OFFERED_LIVE",
+      "BET_BUILDER",
+      "MAIN"
+     ],
+     "sortOrder": 1,
+     "cashOutStatus": "ENABLED"
+    }
+   ]
+  },
+  {
+   "event": {
+    "id": 1028754189,
+    "name": "Indiana Pacers - Atlanta Hawks",
+    "nameDelimiter": "-",
+    "englishName": "Indiana Pacers - Atlanta Hawks",
+    "homeName": "Indiana Pacers",
+    "awayName": "Atlanta Hawks",
+    "start": "2026-11-03T00:30:00Z",
+    "group": "NBA",
+    "groupId": 1000093652,
+    "path": [
+     {
+      "id": 1000093204,
+      "name": "Baloncesto",
+      "englishName": "Basketball",
+      "termKey": "basketball"
+     },
+     {
+      "id": 1000093652,
+      "name": "NBA",
+      "englishName": "NBA",
+      "termKey": "nba"
+     }
+    ],
+    "nonLiveBoCount": 3,
+    "sport": "BASKETBALL",
+    "tags": [
+     "OFFERED_LIVE",
+     "BET_BUILDER",
+     "MATCH"
+    ],
+    "state": "NOT_STARTED"
+   },
+   "betOffers": [
+    {
+     "id": 2711774879,
+     "criterion": {
+      "id": 1001159732,
+      "label": "Ganador - Prórroga incluida",
+      "englishLabel": "Moneyline - Including Overtime",
+      "order": [],
+      "occurrenceType": "POINTS",
+      "lifetime": "FULL_TIME_OVERTIME"
+     },
+     "betOfferType": {
+      "id": 2,
+      "name": "Partido",
+      "englishName": "Match"
+     },
+     "eventId": 1028754189,
+     "outcomes": [
+      {
+       "id": 4400099268,
+       "label": "Indiana Pacers",
+       "englishLabel": "Indiana Pacers",
+       "odds": 2600,
+       "participant": "Indiana Pacers",
+       "type": "OT_ONE",
+       "betOfferId": 2711774879,
+       "changedDate": "2026-11-02T11:11:17Z",
+       "participantId": 1000000218,
+       "oddsFractional": "8/5",
+       "oddsAmerican": "160",
+       "status": "OPEN",
+       "cashOutStatus": "ENABLED",
+       "displayOrder": 0
+      },
+      {
+       "id": 4400099269,
+       "label": "Atlanta Hawks",
+       "englishLabel": "Atlanta Hawks",
+       "odds": 1500,
+       "participant": "Atlanta Hawks",
+       "type": "OT_TWO",
+       "betOfferId": 2711774879,
+       "changedDate": "2026-11-02T11:11:17Z",
+       "participantId": 1000037508,
+       "oddsFractional": "1/2",
+       "oddsAmerican": "-200",
+       "status": "OPEN",
+       "cashOutStatus": "ENABLED",
+       "displayOrder": 1
+      }
+     ],
+     "tags": [
+      "OFFERED_PREMATCH",
+      "OFFERED_LIVE",
+      "BET_BUILDER",
+      "MAIN"
+     ],
+     "sortOrder": 1,
+     "cashOutStatus": "ENABLED"
+    }
+   ]
+  }
+ ],
+ "terms": [],
+ "activeTermIds": [],
+ "soonMode": "HOURLY",
+ "categoryGroups": [],
+ "activeCategories": [],
+ "activeEventTypes": [
+  "matches"
+ ],
+ "eventTypes": [
+  "competitions",
+  "matches"
+ ],
+ "defaultEventType": "matches"
+}
